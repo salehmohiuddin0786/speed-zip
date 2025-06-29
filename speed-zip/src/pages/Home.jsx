@@ -11,7 +11,7 @@ const Home = () => {
         style={{ backgroundImage: `url(${bg})` }}
       >
         <section className="bg-white/10 backdrop-blur-md text-center p-6 rounded-lg max-w-xl mx-4 shadow-lg">
-  <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-900">Design is LIVE!</h1>
+  <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-900">Design Defined</h1>
   <p className="text-lg md:text-xl font-semibold text-gray-800">
     Contact us to discover how Design can support your business 🚀
   </p>
@@ -69,19 +69,43 @@ const Home = () => {
       </div>
 
       {/* Why Choose Us Section */}
-      <div className="bg-[#F4F7FA] py- pb-14   px-6 md:px-">
-        <div className='max-w-6xl mx-auto text-center bg-[#FFFFFF] pt-10 p-10 rounded-xl shadow-md'>
-        <h2 className="text-3xl font-bold text-center text-green-800 mb-8">Why Choose Us</h2>
-        <div className='flex flex-col md:flex-row items-center justify-center gap-8'>
-        <div className="max-w-4xl mx-auto text-left text-lg text-gray-700 space-y-5">
-          <p>✅ Trusted by hundreds of clients across Dubai</p>
-          <p>✅ Creative and sustainable design philosophy</p>
-          <p>✅ Professional team with years of experience</p>
-          <p>✅ On-time delivery and detailed project management</p>
-        </div>
-        </div>
-        </div>
+      <div className="bg-[#F4F7FA] py-16 px-6 md:px-10">
+  <div className="max-w-6xl mx-auto bg-white p-10 rounded-xl shadow-xl">
+    <h2 className="text-3xl font-bold text-center text-green-800 mb-10">
+      Why Choose Speed House
+    </h2>
+    
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-800 text-lg">
+      <div className="flex items-start gap-4">
+        <span className="text-green-600 text-2xl">🏆</span>
+        <p>
+          <strong>Proven Track Record:</strong> Trusted by hundreds of clients across the UAE for delivering high-quality architecture and design solutions.
+        </p>
       </div>
+
+      <div className="flex items-start gap-4">
+        <span className="text-green-600 text-2xl">🌱</span>
+        <p>
+          <strong>Sustainable Designs:</strong> We prioritize eco-friendly, efficient, and future-ready solutions for every project.
+        </p>
+      </div>
+
+      <div className="flex items-start gap-4">
+        <span className="text-green-600 text-2xl">👷‍♂️</span>
+        <p>
+          <strong>Expert Team:</strong> A dedicated team of architects, designers, and engineers with years of experience and passion.
+        </p>
+      </div>
+
+      <div className="flex items-start gap-4">
+        <span className="text-green-600 text-2xl">⏱️</span>
+        <p>
+          <strong>Timely Delivery:</strong> Meticulous planning and execution ensure your project is delivered on time — every time.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
     </>
   );
 };

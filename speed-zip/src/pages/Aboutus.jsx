@@ -8,6 +8,30 @@ const Aboutus = () => {
   return (
     <>
       <Header />
+      <div className="bg-[#F4F7FA]  flex flex-col items-center justify-center pt-10  md:px-10 w-full">
+        <div className="bg-[#FFFFFF] px-20 md:p-10 rounded-xl w-full max-w-6xl">
+          <h2 className="text-2xl md:text-3xl text-center font-bold text-green-900 mb-6">
+            Our Architectural Philosophy
+          </h2>
+          <p className="text-base md:text-lg text-gray-800 leading-relaxed text-justify">
+            At Speed House Eng. Consultant, we understand that architecture is more than just constructing buildings — it's about creating meaningful experiences that inspire and endure. Every structure we design reflects a deep commitment to innovation, quality, and contextual relevance.
+
+.
+            </p>
+            <p className="text-base md:text-lg text-gray-800 leading-relaxed text-justify">
+             Our approach is guided by a holistic vision that seamlessly blends aesthetics, functionality, technology, and sustainability. We believe great design is not only visually compelling but also intuitive, efficient, and environmentally responsible.
+
+
+            </p>
+            <p className="text-base md:text-lg text-gray-800 leading-relaxed text-justify">
+             From the initial concept through to the final handover, our team works in close collaboration with clients, consultants, and key stakeholders to ensure that each project reflects a shared vision brought to life with precision, care, and creativity. Our processes are transparent, adaptive, and rooted in a deep understanding of both user needs and spatial dynamics.
+
+
+
+
+            </p>
+        </div>
+      </div>
 
       {/* Vision & Mission Section */}
       <section className="flex flex-col-reverse md:flex-row items-center justify-center px-4 sm:px-8 md:px-16 py-12 gap-10 bg-[#F4F7FA]  ">
